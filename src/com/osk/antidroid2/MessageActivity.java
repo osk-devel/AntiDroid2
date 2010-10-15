@@ -2,7 +2,7 @@ package com.osk.antidroid2;
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.TextView;
-
+import org.apache.http.client.HttpClient;
 
 public class MessageActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {

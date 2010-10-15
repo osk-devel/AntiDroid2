@@ -46,7 +46,7 @@ public class OskMapActivity extends MapActivity {
  
             //---add the marker---
             Bitmap bmp = BitmapFactory.decodeResource(
-                getResources(), R.drawable.pushpin_small);            
+                getResources(), R.drawable.icon_sample_02);            
             canvas.drawBitmap(bmp, screenPts.x, screenPts.y-50, null);         
             return true;
         }
